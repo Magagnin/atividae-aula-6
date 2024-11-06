@@ -1,0 +1,71 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <locale.h>
+int main()
+{
+    setlocale(LC_ALL, "Portuguese");
+
+    /* 1) escreva um programa em C para escrever a tabuada de um numero qualquer
+    fornecido pelo usuário
+
+    int cont = 1;
+    int numero, rest;
+    printf("Informe numero:");
+    scanf("%d", &numero);
+    while(cont<=10){
+    rest = numero *cont;
+    printf("\n%d * %d = %d", numero, cont, rest);
+    cont++;
+    }*/
+
+
+
+    /*2)Para uma turma de 5 alunos, construir um programa em C que tendo como dados
+    de entrada a altura e idade calcule e escreva.
+    a) a idade média dos alunos;
+    b) a altura média dos alunos.
+
+    int cont = 1;
+    int idade, somai = 0;
+    float altura, somaa = 0, media;
+    while(cont<=5){
+    printf("Informe idade:");
+    scanf("%d", &idade);
+    printf("Informe altura", &altura);
+    scanf("%f", &altura);
+        somai = idade + somai;
+        somaa = altura + somaa;
+        cont++;
+    }
+    media = somai / 5;
+    printf("\nIdade: %.1f",media);
+    media = somaa / 5;
+    printf("\nAltura: %.1f",media);*/
+
+
+
+    /*3)Escreva um programa em C para ler um conjunto de 5 números calcular e escrever
+o maior e menor valor deste conjunto
+int numero;
+int maior, menor, cont = 1;
+while(cont <= 5){
+    printf("Informe numero");
+    scanf("%d", &numero);
+    if(cont == 1){
+        maior = numero;
+        menor =numero;
+    }else
+    if(numero>maior)
+        maior = numero;
+    else
+    if(numero< menor)
+       menor = numero;
+       cont++;
+}
+
+    printf("\nMaior numero: %d \nMenor numero:%d", maior, menor);*/
+
+
+        return 0;
+    }
