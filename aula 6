@@ -67,5 +67,54 @@ while(cont <= 5){
     printf("\nMaior numero: %d \nMenor numero:%d", maior, menor);*/
 
 
+
+  /*4) Escreva um programa em C para calcular e escrever a série fibonacci até o vigésimo
+termo.
+1 1 2 3 5 8 13 21 34
+
+int anterior = 0;
+int proximo = 1;
+int fibbo = 1;
+int cont = 1;
+while(cont <= 20){
+printf("%d", fibbo);
+fibbo = anterior + proximo;
+anterior = proximo;
+proximo = fibbo;
+cont++;
+
+Atividade 5
+
+int cont = 1;
+    float s = 0;
+    char flag = '+';
+    while(cont<=10){
+    {
+        s = s + (float)cont /(cont * cont);
+        flag = '-';
+    }
+    else
+    {
+        s = s - (float)cont / (cont * cont);
+        flag = '+';
+    }
+    cont++;
+    }
+    printf("\nValor: %0.3f", s);
+
+Escrever um programa em C para ler um número calcular e escrever o seu fatorial.
+
+setlocale(LC_ALL, "Portuguese");
+    int cont = 1, num, fat = 1;
+    printf("Informe numero não negativo:");
+    scanf("%d", &num);
+    while(cont <= num){
+    fat = fat * cont;
+    cont++;
+    }
+    printf("\n Fatorial do numero: %d! = %d", num, fat);
+
+   
+
         return 0;
     }
